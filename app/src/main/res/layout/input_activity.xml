@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/slambud6"
+        tools:context=".ActivityQuestionnaire"
+        >
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textViewQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Your Time To Answer Questions"
+            android:fontFamily="@font/gaegur"
+            android:textSize="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestions"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your name?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextNick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextName"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your nickname?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNick"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="When is your birthday?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextBirthday"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your contact number?"
+            android:inputType="phone"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextFavColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextContactNumber"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your Favorite Color?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextFavFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavColor"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your favorite Food?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextFavSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavFood"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your Favorite Song?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextFavMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavSong"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your Favorite Movie?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editFiveYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavMovie"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Who are you after Five years?"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextKids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editFiveYears"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="How many kids do you want to have?"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextLive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextKids"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="How many years you want to live? if ever"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextDeath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextLive"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What kind of death would you prefer?"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextDeath"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What advice would you offer if you encountered your past selves?"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextQoutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAdvice"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Give me your Best Qoutes"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <EditText
+            android:id="@+id/editTextSecrets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextQoutes"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Can you tell me one of your secrets"
+            android:textColor="#000000"
+            android:textColorHint="#504C4C" />
+
+        <Button
+            android:id="@+id/btnBackq"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_below="@id/btnSubmit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:textSize="35dp"
+            android:fontFamily="@font/gaegub"
+            android:backgroundTint="@color/dark_red_2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:fontFamily="@font/gaegub"
+            android:textSize="35dp"
+            android:layout_below="@id/editTextSecrets"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/dark_red_2"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".updateActivity">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:background="@drawable/slambud6">
+
+        <TextView
+            android:id="@+id/textViewQuestions_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/gaegur"
+            android:text="Hi! Feel Free to Edit my Slams"
+            android:textColor="#0B0A0A"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextName_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewQuestions_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your name?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <EditText
+            android:id="@+id/editTextNick_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextName_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your nickname?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <EditText
+            android:id="@+id/editTextBirthday_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNick_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="When is your birthday?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <EditText
+            android:id="@+id/editTextContactNumber_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextBirthday_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your contact number?"
+            android:inputType="phone"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <EditText
+            android:id="@+id/editTextFavColor_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextContactNumber_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your Favorite Color?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextFavFood_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavColor_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your favorite food?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextFavSong_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavFood_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your Favorite Song?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextFavMovie_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavSong_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What is your Favorite Movie?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextFiveYears_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFavMovie_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Who are you after Five years?"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextKids_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFiveYears_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="How many kids do you want to have?"
+            android:inputType="number"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextLive_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextKids_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="How many years you want to live? if ever"
+            android:inputType="number"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextDeath_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextLive_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What kind of death would you prefer?"
+            android:inputType="number"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextAdvice_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextDeath_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="What advice would you offer if you encountered your past selves?"
+            android:inputType="number"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextQoutes_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAdvice_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Give me your Best Qoutes"
+            android:inputType="number"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <!-- Add the remaining EditText fields with _update suffix -->
+
+        <EditText
+            android:id="@+id/editTextSecrets_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextQoutes_update"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Can you tell me one of your secrets"
+            android:inputType="text"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#1B1919" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_below="@id/btndeletes_update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/gaegub"
+            android:textSize="35dp"
+            android:backgroundTint="@color/dark_red_2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btndeletes_update"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnupdate_update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Delete"
+            android:fontFamily="@font/gaegub"
+            android:textSize="35dp"
+            android:backgroundTint="@color/dark_red_2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnupdate_update"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:fontFamily="@font/gaegub"
+            android:textSize="35dp"
+            android:layout_below="@id/editTextSecrets_update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/dark_red_2"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout> </ScrollView>

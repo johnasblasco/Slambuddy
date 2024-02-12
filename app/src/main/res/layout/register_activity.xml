@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slambud2"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/us3r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/gaegub"
+        android:onClick="onLoginClick"
+        android:text="Username: "
+        android:textColor="@color/orange"
+        android:textFontWeight="900"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/userNameInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/p4ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/gaegub"
+        android:onClick="onLoginClick"
+        android:text="Secret Password: "
+        android:textColor="@color/orange"
+        android:textFontWeight="900"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Cp4ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/gaegub"
+        android:onClick="onLoginClick"
+        android:text="Confirm Secret Password: "
+        android:textColor="@color/orange"
+        android:textFontWeight="900"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirmPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/dark_red_2"
+        android:fontFamily="@font/gaegub"
+        android:textFontWeight="900"
+        android:textSize="30dp"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        style="@style/EditTextBox"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/userNameInput"
+        style="@style/EditTextBox"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:onClick="onLoginClick"
+        android:text="Already have an Account? Log in"
+        android:textColor="@color/dark_bluish_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/EditTextBox"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/userNameInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

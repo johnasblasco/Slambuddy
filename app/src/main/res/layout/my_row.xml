@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:paddingBottom="5dp"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:contentPaddingStart="0dp"
+        app:contentPaddingEnd="0dp"
+        app:contentPaddingTop="0dp"
+        app:contentPaddingBottom="0dp">
+    >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/medyo_dark"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/answer_id_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="1"
+                android:textColor="#FFF"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/answer_text1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/answer_id_txt"
+                app:layout_constraintTop_toTopOf="@+id/answer_id_txt" />
+
+            <TextView
+                android:id="@+id/answer_text2_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NickName"
+                app:layout_constraintStart_toStartOf="@+id/answer_text1_txt"
+                app:layout_constraintTop_toBottomOf="@+id/answer_text1_txt" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

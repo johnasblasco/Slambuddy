@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="medyo_dark">#1F1717</color>
+    <color name="dark_bluish_purple">#2B2A4C</color>
+    <color name="light_peach">#EA906C</color>
+    <color name="medyo_orange_konte">#DC5F00</color>
+    <color name="light_yellow">#F0DE36</color>
+    <color name="dark_blue">#0D1282</color>
+    <color name="dark_red_2">#7D0A0A</color>
+    <color name="orange">#FF8911</color>
+</resources>

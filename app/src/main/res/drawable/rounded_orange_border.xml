@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="2dp"
+        android:color="@color/orange" /> <!-- Set the color to orange and adjust the width -->
+    <corners
+        android:radius="60dp" /> <!-- Adjust the radius to control the corner curvature -->
+    <!-- Optionally, you can set a solid color for the background if needed -->
+    <!--<solid android:color="@android:color/white" />-->
+</shape>
